@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Personal Book Library</h1>
+        <p>Manage your book collection, search, categorize, and track borrowing history.</p>
+        <nav>
+            <ul>
+              <li><a href="#famous-books">Famous Books</a></li>
+              <li><a href="#categories">Book Categories</a></li>
+              <li>
+                <form>
+                  <input type="text" id="searchBar" placeholder="Search by title or author...">
+                  <button type="submit" onclick="searchBooks()">Search</button>
+                </form>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <section id="Home">
+            <h1>“Having fun isn't hard when you've got a library card.” </h1><br>
+                
+    </section>
+
+    <section id="famous-books">
+        <h2 style="text-align: center;">World Famous Books</h2>
+        <input type="checkbox" id="show-all" style="display: none;">
+        <label for="show-all" id="show-all-label">Show All</label>
+        <div class="book-grid">
+            
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/Mrityunjaya/J2VymefivvoC?hl=en&gbpv=1">
+                <img src="image/mrityunjay.jpg" alt="Mrutynjay">
+                </a>
+                <h3>Mrityunjay</h3>
+                <p>By Shivaji Sawant. A poignant retelling of Karna's life from the Mahabharata, exploring his struggles with identity, loyalty, and destiny.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/The_Song_Celestial/Fg1OAQAAIAAJ?hl=en&gbpv=1">
+                <img src="image/Mahabharata.jpg" alt="Mahabharat">
+                </a>
+                <h3>Mahabharata</h3>
+                <p>The Mahabharata is an ancient Indian epic centered on the great war between the Pandavas and Kauravas, highlighting themes of duty, righteousness, and destiny.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/Valmiki_s_Ramayana/gNwkDwAAQBAJ?hl=en&gbpv=1&dq=ramayan+book&printsec=frontcover">
+                <img src="image/Ramayana.jpg" alt="Ramayan">
+                </a>
+                <h3>Ramayana</h3>
+                <p>The Ramayana is an ancient Indian epic that narrates the journey of Prince Rama to rescue his wife Sita from the demon king Ravana, highlighting themes of duty, loyalty, and righteousness..</p>
+            </div>
+            <div class="book">
+                <a  href="https://www.google.co.in/books/edition/The_God_of_Small_Things/IUf0AgAAQBAJ?hl=en&gbpv=1&dq=The+god+of+small+things&printsec=frontcover">
+                <img src="image/The god of small things.jpg" alt="The god of small things">
+                </a>
+                <h3>The God of small Things</h3>
+                <p>By Arundhati Roy is a poignant novel that explores the lives of two twins in Kerala, delving into themes of caste, forbidden love, and societal norms, set against the backdrop of family tragedy.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/Nineteen_Eighty_Four/PEpoEAAAQBAJ?hl=en&gbpv=1&dq=1984&printsec=frontcover">
+                <img src="image/1984.jpg" alt="1984">
+                </a>
+                <h3>1984</h3>
+                <p>By George Orwell. A dystopian novel that delves into the dangers of totalitarianism.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/To_Kill_a_Mockingbird/PGR2AwAAQBAJ?hl=en&gbpv=1&dq=To+Kill+a+Mockingbird&printsec=frontcover">
+                <img src="image/To Kill a Mockingbird.jpg" alt="To Kill a Mockingbird">
+                </a>
+                <h3>To Kill a Mockingbird</h3>
+                <p>By Harper Lee. A classic that explores racial injustice in the American South.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/Guide_to_the_Harry_Potter_Novels/cHjF5K2uVdsC?hl=en&gbpv=1&dq=Harry+Potter+books&pg=PA106&printsec=frontcover">
+                <img src="image/Harry Potter.jpg" alt="Harry Potter">
+                </a>
+                <h3>Harry Potter and the Philosopher's Stone</h3>
+                <p>By J.K. Rowling. The story of a young wizard and his adventures.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/Pride_and_Prejudice/alG_Ymyje4UC?hl=en&gbpv=1&dq=Pride+and+Prejudice&pg=PP1&printsec=frontcover">
+                <img src="image/Pride and Prejudice.png" alt="Pride and Prejudice">
+                </a>
+                <h3>Pride and Prejudice</h3>
+                <p>By Jane Austen. A timeless romance between Elizabeth Bennet and Mr. Darcy.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/_/Wy0svf_7NzsC?hl=en&gbpv=1">
+                <img src="image/The Hobbit.jpg" alt="The Hobbit">
+                </a>
+                <h3>The Hobbit</h3>
+                <p>By J.R.R. Tolkien. An epic fantasy of adventure and discovery.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/Moby_Dick/VOUrWyiyvNEC?hl=en&gbpv=1&dq=Moby+Dick&printsec=frontcover">
+                <img src="image/Moby Dick.jpg" alt="Moby Dick">
+                </a>
+                <h3>Moby Dick</h3>
+                <p>By Herman Melville. The tale of Captain Ahab's obsessive quest to kill the white whale.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/The_Magic/Fz2qe7V2TgUC?hl=en&gbpv=1&dq=jadu&printsec=frontcover">
+                <img src="image/Jadu.jpg" alt="The Hobbit">
+                </a>
+                <h3>Jadu</h3>
+
+                <p>By Maharaj Sachidanand is a spiritual book that explores mysticism, inner transformation, and the power of divine experiences, guiding readers toward self-realization and spiritual awakening.</p>
+            </div>
+            <div class="book">
+                <a href="https://www.google.co.in/books/edition/Think_Like_a_Monk/N-T7DwAAQBAJ?hl=en&gbpv=1&dq=think+like+monk&printsec=frontcover">
+                <img src="image/Thinklike monk.jpg" alt="Moby Dick">
+                </a>
+                <h3>Think Like Monk</h3>
+                <p>By Jay Shetty is a practical guide that combines ancient wisdom and modern psychology to help readers cultivate mindfulness, purpose, and positive habits for a fulfilling life.</p>
+            </div>
+        </div>
+        <script>
+            // Get the book grid container
+const bookGrid = document.querySelector('.book-grid');
+
+// Get all book elements
+const books = bookGrid.children;
+
+// Get the show-all/show-less button
+const showButton = document.getElementById('show-all');
+
+// Show only 5 books initially
+let visibleBooks = 4;
+
+// Add event listener to show-all button
+showButton.addEventListener('click', () => {
+    if (visibleBooks === 4) {
+      visibleBooks = books.length;
+      showButton.textContent = 'Show Less';
+    } else {
+      visibleBooks = 4;
+      showButton.textContent = 'Show All';
+    }
+    updateBookGrid();
+  });
+
+// Update book grid function
+function updateBookGrid() {
+  for (let i = 0; i < books.length; i++) {
+    if (i < visibleBooks) {
+      books[i].style.display = 'block';
+    } else {
+      books[i].style.display = 'none';
+    }
+  }
+  if (visibleBooks === books.length) {
+    bookGrid.classList.add('show-all');
+  } else {
+    bookGrid.classList.remove('show-all');
+  }
+}
+
+// Initialize book grid
+updateBookGrid();
+        </script>
+    </section>
+
+    
+
+    <section id="categories">
+        <h2 style="text-align: center;">Book Categories</h2>
+        <div class="category">
+            
+            
+<div class="hero">
+    <h1>Explore the Boundless Worlds of Fiction</h1>
+    <p>Let your imagination soar with stories that take you beyond reality.</p>
+</div>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Escape Into Imagination</h2>
+        <p>Step into realms where the only limit is your imagination. Fictional stories open doors to enchanted forests, galaxies far away, dystopian futures, and historical epochs that feel as vivid as the present. It’s more than an escape—it’s a chance to live a thousand lives and experience what’s impossible in our world.</p>
+    </div>
+
+    <div class="section">
+        <h2>A Mirror to Society</h2>
+        <p>Fiction isn't just fantasy; it’s a reflection of our own world. These stories help us confront life’s biggest questions, offer profound insights into human nature, and challenge the way we see ourselves. Through fictional tales, we explore themes of love, loss, identity, and morality, shaping our understanding of the world around us.</p>
+    </div>
+
+    <div class="section">
+        <h2>Characters That Stay with You</h2>
+        <p>Fiction introduces unforgettable characters whose journeys resonate with our own emotions and experiences. From the hero overcoming impossible odds to the flawed individual searching for redemption, these characters live on in our minds, inspiring us, challenging us, and becoming part of our own narrative.</p>
+    </div>
+
+    <div class="section">
+        <h2>Genres to Explore</h2>
+        <div class="genres">
+            <div class="genre-card">
+                <h3>Fantasy</h3>
+                <p>Explore magical realms, mythical creatures, and epic quests.</p>
+            </div>
+            <div class="genre-card">
+                <h3>Science Fiction</h3>
+                <p>Dive into futuristic worlds and cutting-edge technologies.</p>
+            </div>
+            <div class="genre-card">
+                <h3>Historical Fiction</h3>
+                <p>Step back in time and experience history like never before.</p>
+            </div>
+            <div class="genre-card">
+                <h3>Mystery & Thriller</h3>
+                <p>Solve captivating puzzles and experience heart-pounding suspense.</p>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="category">
+            <div class="hero">
+                <h1>Non-Fiction - Learn Real-World Knowledge</h1>
+                <p>Discover the best non-fiction books that offer insights, practical advice, and real-life knowledge to help you understand the world better.</p>
+            </div>
+            
+            <div class="container">
+            
+                <div class="section">
+                    <h2>Gain Real-World Wisdom</h2>
+                    <p>Non-fiction books provide invaluable insights and knowledge from experts, thinkers, and pioneers across a wide range of fields. From biographies that inspire, to self-help guides that empower, and historical accounts that offer a deeper understanding of the world, non-fiction helps you grow and learn with each page.</p>
+                </div>
+            
+                <div class="section">
+                    <h2>Learn from the Best Minds</h2>
+                    <p>Non-fiction lets you tap into the minds of thought leaders and innovators, offering you firsthand access to ideas that shape industries, societies, and even your personal growth. These books challenge conventional wisdom, provide practical advice, and broaden your perspective.</p>
+                </div>
+            
+                <div class="section">
+                    <h2>Diverse Topics to Explore</h2>
+                    <div class="genres">
+                        <div class="genre-card">
+                            <h3>Biography</h3>
+                            <p>Explore the lives of inspiring individuals who shaped history and modern society.</p>
+                        </div>
+                        <div class="genre-card">
+                            <h3>Self-Help</h3>
+                            <p>Unlock your potential with books designed to improve mental, emotional, and physical well-being.</p>
+                        </div>
+                        <div class="genre-card">
+                            <h3>History</h3>
+                            <p>Understand the past with in-depth accounts that provide context for today’s world.</p>
+                        </div>
+                        <div class="genre-card">
+                            <h3>Science & Technology</h3>
+                            <p>Discover the latest innovations and breakthroughs that shape our future.</p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
